@@ -26,28 +26,14 @@
     }
 }(this, function () {
     var umd = {};
-
-    // Slightly awkward to publicly expose that function just so we can test multiple loads
     (function () {
         "use strict";
         (function () {
             "use strict";
-
-            /* ## Malfunctions
-             * @memberof umd
-             */
-
-            /**
-             * @namespace Constants
-             * @hideconstructor
-             * @classdesc Constants defined by umd SDK.
-             */
             var Constants = umd.Constants = {};
             Constants.version = "1.0.1";
-
             "use strict";
-
-            var Client = umd.Client = function (msg) {
+            var Client = umd.Client = function () {
                 var _s = this;
 
                 function _constr(msg) {
@@ -55,18 +41,14 @@
                 }
 
                 _constr.apply(this, arguments);
-                /**
-                 * <b>Required.</b> Unloads this umd Client.
-                 * @method release
-                 * @public
-                 * @memberof Client#
-                 */
-
 
                 this.fetchUniqueNumber = function () {
-                    return _s.msg + Random.integer32();
+                    let maxUInt32 = 4294967295;
+                    let minInt32 = -2147483648;
+                    return _s.msg + " : " + (Math.floor(Math.random() * maxUInt32) + minInt32);
                 };
             };
+            Client.version = "1.0.2";
         })();
     })();
     return umd;
