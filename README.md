@@ -1,3 +1,2 @@
-# TestRepo2
-INserting in feature
-Hot  
+# test-npm-umd
+Test npm package with umd implementation
