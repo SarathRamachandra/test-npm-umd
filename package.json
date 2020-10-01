@@ -1,5 +1,5 @@
 {
-  "name": "test-npm-umd",
+  "name": "@SarathRamachandra/test-npm-umd",
   "version": "1.0.0",
   "description": "test package with library file built with UMD",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SarathRamachandra/test-npm-umd/issues"
   },
-  "homepage": "https://github.com/SarathRamachandra/test-npm-umd#readme"
+  "homepage": "https://github.com/SarathRamachandra/test-npm-umd#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
