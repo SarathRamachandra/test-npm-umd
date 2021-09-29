@@ -1,6 +1,6 @@
 {
   "name": "@sarathramachandra/test-npm-umd",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "test package with library file built with UMD",
   "main": "src/index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/SarathRamachandra/test-npm-umd.git"
   },
-  "author": "sarathramachandra",
-  "license": "ISC",
+  "author": "SarathRamachandra",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SarathRamachandra/test-npm-umd/issues"
   },
