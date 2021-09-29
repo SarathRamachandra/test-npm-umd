@@ -1,6 +1,6 @@
 {
   "name": "@sarathramachandra/test-npm-umd",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "test package with library file built with UMD",
   "main": "src/index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/SarathRamachandra/test-npm-umd#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   }
 }
